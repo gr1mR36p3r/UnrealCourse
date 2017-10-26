@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Casa.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{59256C87-80A3-4594-B4AC-FEB4562CE96E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Casa.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CasaEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0E09C898-F91E-442A-9F1A-D21BB17BEE91}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Casa">
+			<UniqueIdentifier>{E77D5F43-2EC5-49A9-8522-3DC82617D343}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Casa\Casa.Build.cs">
+			<Filter>Source\Casa</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Casa\Casa.cpp">
+			<Filter>Source\Casa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Casa\Casa.h">
+			<Filter>Source\Casa</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Casa\cmpPositionReporter.cpp">
+			<Filter>Source\Casa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Casa\cmpPositionReporter.h">
+			<Filter>Source\Casa</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
