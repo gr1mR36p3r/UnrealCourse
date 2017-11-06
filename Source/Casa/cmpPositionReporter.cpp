@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "cmpPositionReporter.h"
+#include "Gameframework/Actor.h"
 
 
 // Sets default values for this component's properties
@@ -11,6 +12,7 @@ UcmpPositionReporter::UcmpPositionReporter()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
+
 }
 
 
@@ -18,9 +20,10 @@ UcmpPositionReporter::UcmpPositionReporter()
 void UcmpPositionReporter::BeginPlay()
 {
 	Super::BeginPlay();
-
 	// ...
-	
+	//here we go...
+	FString zObjectName = GetOwner()->GetName();
+	UE_LOG(LogTemp, Warning, TEXT("Position Reporting from object %s!"), *zObjectName)
 }
 
 
