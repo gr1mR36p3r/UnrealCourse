@@ -1,13 +1,21 @@
-﻿  Creating makefile for hot reloading CasaEditor (modules to compile have changed)
+﻿  Cleaning CasaEditor Binaries...
   Compiling game modules for hot reload
+  Creating makefile for hot reloading CasaEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
   Parsing headers for CasaEditor
     Running UnrealHeaderTool "C:\Users\giuli\Documents\git_rep\UnrealCourse\Casa.uproject" "C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\CasaEditor\Development\CasaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CasaEditor in 4,4622235 seconds
-  Performing 3 actions (2 in parallel)
+  Reflection code generated for CasaEditor in 3,8362784 seconds
+  Performing 8 actions (2 in parallel)
+  [2/8] Resource ModuleVersionResource.rc.inl
+  SharedPCH.Engine.cpp
+  [3/8] Resource PCLaunch.rc
+  Casa.cpp
   cmpPositionReporter.cpp
-  [2/3] Link UE4Editor-Casa-8794.dll
-  [3/3] Link UE4Editor-Casa-8794.lib
-     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8794.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8794.exp
-     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8794.suppressed.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8794.suppressed.exp
+  Casa.generated.cpp
+  [7/8] Link UE4Editor-Casa-227.dll
+  [8/8] Link UE4Editor-Casa-227.lib
+     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.exp
+     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.suppressed.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.suppressed.exp
   Deploying CasaEditor Win64 Development...
-  Total build time: 11,00 seconds (Local executor: 2,28 seconds)
+  Total build time: 19,10 seconds (Local executor: 11,20 seconds)

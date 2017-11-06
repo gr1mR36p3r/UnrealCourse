@@ -23,7 +23,12 @@ void UcmpPositionReporter::BeginPlay()
 	// ...
 	//here we go...
 	FString zObjectName = GetOwner()->GetName();
-	UE_LOG(LogTemp, Warning, TEXT("Position Reporting from object %s!"), *zObjectName)
+	//FString zObjectPosition ="X:..., Y=...";
+	// FVector pPositionVector = GetOwner()->GetActorLocation();
+	// FString zObjectPosition = pPositionVector.ToString();
+	FString zObjectPosition = GetOwner()->GetActorLocation().ToString();
+	// UE_LOG(LogTemp, Warning, TEXT("Position Reporting from object %s!"), *zObjectName);
+	UE_LOG(LogTemp, Warning, TEXT("Object %s is at %s"), *zObjectName, *zObjectPosition);
 }
 
 
