@@ -5,17 +5,18 @@
   Performing full C++ include scan (no include cache file)
   Parsing headers for CasaEditor
     Running UnrealHeaderTool "C:\Users\giuli\Documents\git_rep\UnrealCourse\Casa.uproject" "C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\CasaEditor\Development\CasaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CasaEditor in 3,8362784 seconds
-  Performing 8 actions (2 in parallel)
-  [2/8] Resource ModuleVersionResource.rc.inl
+  Reflection code generated for CasaEditor in 3,8508142 seconds
+  Performing 9 actions (2 in parallel)
+  [2/9] Resource ModuleVersionResource.rc.inl
   SharedPCH.Engine.cpp
-  [3/8] Resource PCLaunch.rc
+  [3/9] Resource PCLaunch.rc
   Casa.cpp
   cmpPositionReporter.cpp
+  OpenDoor.cpp
   Casa.generated.cpp
-  [7/8] Link UE4Editor-Casa-227.dll
-  [8/8] Link UE4Editor-Casa-227.lib
-     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.exp
-     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.suppressed.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-227.suppressed.exp
+  [8/9] Link UE4Editor-Casa-5357.dll
+  [9/9] Link UE4Editor-Casa-5357.lib
+     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-5357.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-5357.exp
+     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-5357.suppressed.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-5357.suppressed.exp
   Deploying CasaEditor Win64 Development...
-  Total build time: 19,10 seconds (Local executor: 11,20 seconds)
+  Total build time: 17,34 seconds (Local executor: 9,30 seconds)

@@ -8,3 +8,6 @@
 #ifndef CASA_cmpPositionReporter_generated_h
 	#include "cmpPositionReporter.h"
 #endif
+#ifndef CASA_OpenDoor_generated_h
+	#include "OpenDoor.h"
+#endif
