@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Engine/TriggerVolume.h"
 #include "Components/ActorComponent.h"
 #include "OpenDoor.generated.h"
 
@@ -29,5 +29,6 @@ private:
 		float OpenAngle = -180.f;
 	UPROPERTY(EditAnywhere)
 		float ClosedAngle = 90.f;
-
+	UPROPERTY(EditAnywhere)
+		ATriggerVolume *PressurePlate;
 };
