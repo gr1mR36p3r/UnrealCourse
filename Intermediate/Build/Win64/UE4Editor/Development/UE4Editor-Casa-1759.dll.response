@@ -30,7 +30,6 @@
 "C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\Casa.cpp.obj"
 "C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\cmpPositionReporter.cpp.obj"
 "C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\OpenDoor.cpp.obj"
-"C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\Casa.generated.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Casa\PCLaunch.rc.res"
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
 "delayimp.lib"
@@ -61,7 +60,7 @@
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
 "C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
-/OUT:"C:\Users\giuli\Documents\git_rep\UnrealCourse\Binaries\Win64\UE4Editor-Casa-9637.dll"
-/IMPLIB:"C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-9637.suppressed.lib"
-/PDB:"C:\Users\giuli\Documents\git_rep\UnrealCourse\Binaries\Win64\UE4Editor-Casa-9637.pdb"
+/OUT:"C:\Users\giuli\Documents\git_rep\UnrealCourse\Binaries\Win64\UE4Editor-Casa-1759.dll"
+/IMPLIB:"C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-1759.suppressed.lib"
+/PDB:"C:\Users\giuli\Documents\git_rep\UnrealCourse\Binaries\Win64\UE4Editor-Casa-1759.pdb"
 /ignore:4078

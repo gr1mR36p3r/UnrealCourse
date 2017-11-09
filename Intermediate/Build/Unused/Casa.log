@@ -5,7 +5,7 @@
   Performing full C++ include scan (no include cache file)
   Parsing headers for CasaEditor
     Running UnrealHeaderTool "C:\Users\giuli\Documents\git_rep\UnrealCourse\Casa.uproject" "C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\CasaEditor\Development\CasaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CasaEditor in 3,879172 seconds
+  Reflection code generated for CasaEditor in 3,9673763 seconds
   Performing 9 actions (2 in parallel)
   [2/9] Resource ModuleVersionResource.rc.inl
   SharedPCH.Engine.cpp
@@ -14,9 +14,9 @@
   cmpPositionReporter.cpp
   OpenDoor.cpp
   Casa.generated.cpp
-  [8/9] Link UE4Editor-Casa-9637.dll
-  [9/9] Link UE4Editor-Casa-9637.lib
-     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-9637.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-9637.exp
-     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-9637.suppressed.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-9637.suppressed.exp
+  [8/9] Link UE4Editor-Casa-8127.dll
+  [9/9] Link UE4Editor-Casa-8127.lib
+     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8127.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8127.exp
+     Creating library C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8127.suppressed.lib and object C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Casa-8127.suppressed.exp
   Deploying CasaEditor Win64 Development...
-  Total build time: 13,49 seconds (Local executor: 5,59 seconds)
+  Total build time: 13,78 seconds (Local executor: 5,59 seconds)
