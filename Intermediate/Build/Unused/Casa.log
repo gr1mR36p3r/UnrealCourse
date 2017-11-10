@@ -5,18 +5,18 @@
   Performing full C++ include scan (no include cache file)
   Parsing headers for CasaEditor
     Running UnrealHeaderTool "C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Casa.uproject" "C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\CasaEditor\DebugGame\CasaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CasaEditor in 4,5216913 seconds
+  Reflection code generated for CasaEditor in 4,9466976 seconds
   Performing 9 actions (4 in parallel)
   [2/9] Resource ModuleVersionResource.rc.inl
   [3/9] Resource PCLaunch.rc
   SharedPCH.Engine.NonOptimized.cpp
+  cmpPositionReporter.cpp
+  Casa.generated.cpp
   Casa.cpp
   OpenDoor.cpp
-  Casa.generated.cpp
-  cmpPositionReporter.cpp
-  [8/9] Link UE4Editor-Casa-8394-Win64-DebugGame.dll
-  [9/9] Link UE4Editor-Casa-8394-Win64-DebugGame.lib
-     Creating library C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-8394-Win64-DebugGame.lib and object C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-8394-Win64-DebugGame.exp
-     Creating library C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-8394-Win64-DebugGame.suppressed.lib and object C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-8394-Win64-DebugGame.suppressed.exp
+  [8/9] Link UE4Editor-Casa-5415-Win64-DebugGame.dll
+  [9/9] Link UE4Editor-Casa-5415-Win64-DebugGame.lib
+     Creating library C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-5415-Win64-DebugGame.lib and object C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-5415-Win64-DebugGame.exp
+     Creating library C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-5415-Win64-DebugGame.suppressed.lib and object C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-Casa-5415-Win64-DebugGame.suppressed.exp
   Deploying CasaEditor Win64 DebugGame...
-  Total build time: 17,37 seconds (Local executor: 8,08 seconds)
+  Total build time: 19,24 seconds (Local executor: 8,82 seconds)

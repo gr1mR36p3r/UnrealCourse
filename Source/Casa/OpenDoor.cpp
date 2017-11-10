@@ -39,6 +39,7 @@ void UOpenDoor::OpenDoor()
 	AActor *pDoor = GetOwner();
 	FRotator DoorOpener = FRotator(0.0f, -180.0f, 0.0f);
 	pDoor->SetActorRotation(DoorOpener);
+	UE_LOG(LogTemp, Warning, TEXT("Door was opened"));
 	//these lines were meant to show rotation in the debug window of unreal editor
 	// FString zObjectName = pDoor->GetName();
 	// FString zObjectRotation = pDoor->GetActorRotation().ToString();
