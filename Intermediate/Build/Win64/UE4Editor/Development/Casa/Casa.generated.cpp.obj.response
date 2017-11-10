@@ -22,9 +22,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source"
-/I C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Source
-/I C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Inc\Casa
-/I C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Source\Casa
+/I C:\Users\giuli\Documents\git_rep\UnrealCourse\Source
+/I C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Inc\Casa
+/I C:\Users\giuli\Documents\git_rep\UnrealCourse\Source\Casa
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public\Async"
@@ -316,9 +316,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Inc\Casa\Casa.generated.cpp"
-/FI"C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\Definitions.Casa.h"
-/Fo"C:\Users\PhoeniX\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\Casa.generated.cpp.obj"
+"C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Inc\Casa\Casa.generated.cpp"
+/FI"C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\Definitions.Casa.h"
+/Fo"C:\Users\giuli\Documents\git_rep\UnrealCourse\Intermediate\Build\Win64\UE4Editor\Development\Casa\Casa.generated.cpp.obj"
 /TP
 /GR-
 /W4

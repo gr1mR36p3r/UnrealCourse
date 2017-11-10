@@ -26,6 +26,7 @@ void UOpenDoor::BeginPlay()
 	// ...
 	// UWorld* World = GetWorld();
 	ActorThatOpensDoor = GetWorld()->GetFirstPlayerController()->GetPawn();
+	pDoor = GetOwner();
 	//note, error on getworld is just an intellisense errore, VS compiles just fine
 	/*
 	UWorld* World = GetWorld();
@@ -36,14 +37,19 @@ void UOpenDoor::BeginPlay()
 
 void UOpenDoor::OpenDoor()
 {
-	AActor *pDoor = GetOwner();
-	FRotator DoorOpener = FRotator(0.0f, -180.0f, 0.0f);
+	FRotator DoorOpener = FRotator(0.0f, OpenAngle, 0.0f);
 	pDoor->SetActorRotation(DoorOpener);
 	UE_LOG(LogTemp, Warning, TEXT("Door was opened"));
 	//these lines were meant to show rotation in the debug window of unreal editor
 	// FString zObjectName = pDoor->GetName();
 	// FString zObjectRotation = pDoor->GetActorRotation().ToString();
 	// UE_LOG(LogTemp, Warning, TEXT("Object %s is at %s"), *zObjectName, *zObjectRotation);
+}
+void UOpenDoor::CloseDoor()
+{
+	FRotator DoorOpener = FRotator(0.0f, ClosedAngle, 0.0f);
+	pDoor->SetActorRotation(DoorOpener);
+	UE_LOG(LogTemp, Warning, TEXT("Door was closed"));
 }
 
 
@@ -58,7 +64,11 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	if (PressurePlate->IsOverlappingActor(ActorThatOpensDoor))
 		{
 		OpenDoor();
+		DoorLastOpenTime = GetWorld()->GetTimeSeconds();
 		}
-
+	if (GetWorld()->GetTimeSeconds() - DoorLastOpenTime > DoorClosingDelay)
+		{
+		CloseDoor(); 
+		}
 }
 

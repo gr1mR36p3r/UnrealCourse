@@ -62,7 +62,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 #define UnrealCourse_Source_Casa_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__OpenAngle() { return STRUCT_OFFSET(UOpenDoor, OpenAngle); } \
 	FORCEINLINE static uint32 __PPO__ClosedAngle() { return STRUCT_OFFSET(UOpenDoor, ClosedAngle); } \
-	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); }
+	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
+	FORCEINLINE static uint32 __PPO__DoorClosingDelay() { return STRUCT_OFFSET(UOpenDoor, DoorClosingDelay); }
 
 
 #define UnrealCourse_Source_Casa_OpenDoor_h_10_PROLOG
